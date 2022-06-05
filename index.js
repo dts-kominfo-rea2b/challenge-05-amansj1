@@ -10,7 +10,7 @@ const sorter = (names,nub) => {
   const idx = nub(names);
   const nameidx = [];
   for (i = 0; i < idx.length; i++) {
-    nameidx[i] = `${i + 1}. + ${idx[i]}`;
+    nameidx[i] = `${i + 1}. ${idx[i]}`;
   }
   return nameidx;
 }
